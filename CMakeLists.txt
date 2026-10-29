@@ -6413,6 +6413,7 @@ target_link_libraries(grpc_authorization_provider
   upb_textformat_lib
   ${_gRPC_RE2_LIBRARIES}
   ${_gRPC_ZLIB_LIBRARIES}
+  absl::algorithm_container
   absl::no_destructor
   absl::btree
   absl::flat_hash_map
@@ -6951,6 +6952,7 @@ target_link_libraries(activity_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -7788,6 +7790,7 @@ target_link_libraries(all_ok_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -9648,6 +9651,7 @@ target_link_libraries(blackboard_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -10097,6 +10101,7 @@ target_link_libraries(call_filters_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::no_destructor
   absl::btree
   absl::flat_hash_map
@@ -10259,6 +10264,7 @@ target_link_libraries(call_state_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -10578,6 +10584,7 @@ target_link_libraries(call_utils_test
   gtest
   upb_textformat_lib
   ${_gRPC_ZLIB_LIBRARIES}
+  absl::algorithm_container
   absl::no_destructor
   absl::btree
   absl::flat_hash_map
@@ -10754,6 +10761,7 @@ target_link_libraries(cancel_callback_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -12456,6 +12464,7 @@ target_link_libraries(chunked_vector_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -13886,6 +13895,7 @@ target_link_libraries(context_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -17486,6 +17496,7 @@ target_link_libraries(exec_ctx_wakeup_scheduler_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -18553,6 +18564,7 @@ target_link_libraries(filter_fusion_test
   gtest
   upb_textformat_lib
   ${_gRPC_ZLIB_LIBRARIES}
+  absl::algorithm_container
   absl::no_destructor
   absl::btree
   absl::flat_hash_map
@@ -18812,6 +18824,7 @@ target_link_libraries(flow_control_manager_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -18944,6 +18957,7 @@ target_link_libraries(flow_control_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -19070,6 +19084,7 @@ target_link_libraries(for_each_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -19332,6 +19347,7 @@ target_link_libraries(frame_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -22637,6 +22653,7 @@ target_link_libraries(if_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -22961,6 +22978,7 @@ if(_gRPC_PLATFORM_LINUX OR _gRPC_PLATFORM_MAC OR _gRPC_PLATFORM_POSIX)
     gtest
     upb_textformat_lib
     ${_gRPC_ZLIB_LIBRARIES}
+    absl::algorithm_container
     absl::no_destructor
     absl::btree
     absl::flat_hash_map
@@ -23380,6 +23398,7 @@ target_link_libraries(inter_activity_pipe_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -23547,6 +23566,7 @@ target_link_libraries(interceptor_list_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -23909,6 +23929,7 @@ target_link_libraries(join_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -24278,6 +24299,7 @@ target_link_libraries(latch_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -24465,6 +24487,7 @@ target_link_libraries(latent_see_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -24999,6 +25022,7 @@ target_link_libraries(lock_based_mpsc_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -25159,6 +25183,7 @@ target_link_libraries(loop_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -25271,6 +25296,7 @@ target_link_libraries(lru_cache_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -25396,6 +25422,7 @@ target_link_libraries(map_pipe_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -25511,6 +25538,7 @@ target_link_libraries(match_promise_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -26673,6 +26701,7 @@ target_link_libraries(observable_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -28151,6 +28180,7 @@ target_link_libraries(poll_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -29279,6 +29309,7 @@ target_link_libraries(prioritized_race_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -29486,6 +29517,7 @@ target_link_libraries(promise_factory_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -29600,6 +29632,7 @@ target_link_libraries(promise_map_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -29716,6 +29749,7 @@ target_link_libraries(promise_mutex_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -29830,6 +29864,7 @@ target_link_libraries(promise_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -30453,6 +30488,7 @@ target_link_libraries(query_extensions_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -30566,6 +30602,7 @@ target_link_libraries(race_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -31219,6 +31256,7 @@ target_link_libraries(request_buffer_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::no_destructor
   absl::btree
   absl::flat_hash_map
@@ -32042,6 +32080,7 @@ target_link_libraries(seq_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -34153,6 +34192,7 @@ target_link_libraries(static_stride_scheduler_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -34307,6 +34347,7 @@ target_link_libraries(status_flag_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -35127,6 +35168,7 @@ target_link_libraries(switch_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -35711,6 +35753,7 @@ target_link_libraries(test_core_event_engine_posix_timer_heap_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -35828,6 +35871,7 @@ target_link_libraries(test_core_event_engine_slice_buffer_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -36649,6 +36693,7 @@ target_link_libraries(thread_quota_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -37715,6 +37760,7 @@ if(_gRPC_PLATFORM_LINUX OR _gRPC_PLATFORM_MAC OR _gRPC_PLATFORM_POSIX)
     gtest
     upb_textformat_lib
     ${_gRPC_ZLIB_LIBRARIES}
+    absl::algorithm_container
     absl::no_destructor
     absl::btree
     absl::flat_hash_map
@@ -38037,6 +38083,7 @@ target_link_libraries(try_join_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -38205,6 +38252,7 @@ target_link_libraries(try_seq_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -38318,6 +38366,7 @@ target_link_libraries(unique_ptr_with_bitset_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -38839,6 +38888,7 @@ target_link_libraries(v3_bridge_test
   gtest
   upb_textformat_lib
   ${_gRPC_ZLIB_LIBRARIES}
+  absl::algorithm_container
   absl::no_destructor
   absl::btree
   absl::flat_hash_map
@@ -39043,6 +39093,7 @@ target_link_libraries(wait_for_callback_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
@@ -39605,6 +39656,7 @@ target_link_libraries(write_size_policy_test
   ${_gRPC_ALLTARGETS_LIBRARIES}
   gtest
   upb_textformat_lib
+  absl::algorithm_container
   absl::btree
   absl::flat_hash_map
   absl::inlined_vector
