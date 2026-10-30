@@ -5456,6 +5456,7 @@ libs:
   - upb_textformat_lib
   - re2
   - z
+  - absl/algorithm:container
   - absl/base:no_destructor
   - absl/container:btree
   - absl/container:flat_hash_map
@@ -5797,6 +5798,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -6193,6 +6195,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -6904,6 +6907,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -7250,6 +7254,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/base:no_destructor
   - absl/container:btree
   - absl/container:flat_hash_map
@@ -7459,6 +7464,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -8108,6 +8114,7 @@ targets:
   - gtest
   - upb_textformat_lib
   - z
+  - absl/algorithm:container
   - absl/base:no_destructor
   - absl/container:btree
   - absl/container:flat_hash_map
@@ -8347,6 +8354,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -9409,6 +9417,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -10001,6 +10010,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -13079,6 +13089,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -13928,6 +13939,7 @@ targets:
   - gtest
   - upb_textformat_lib
   - z
+  - absl/algorithm:container
   - absl/base:no_destructor
   - absl/container:btree
   - absl/container:flat_hash_map
@@ -14204,6 +14216,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -14434,6 +14447,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -14663,6 +14677,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -14930,6 +14945,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -16225,6 +16241,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -16881,6 +16898,7 @@ targets:
   - gtest
   - upb_textformat_lib
   - z
+  - absl/algorithm:container
   - absl/base:no_destructor
   - absl/container:btree
   - absl/container:flat_hash_map
@@ -17165,6 +17183,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -17397,6 +17416,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -17672,6 +17692,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -17938,6 +17959,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -18196,6 +18218,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -18615,6 +18638,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -18824,6 +18848,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -19001,6 +19026,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -19229,6 +19255,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -19418,6 +19445,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -19933,6 +19961,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -20663,6 +20692,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -21181,6 +21211,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -21398,6 +21429,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -21584,6 +21616,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -21783,6 +21816,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -21966,6 +22000,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -22514,6 +22549,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -22695,6 +22731,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -23098,6 +23135,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/base:no_destructor
   - absl/container:btree
   - absl/container:flat_hash_map
@@ -23507,6 +23545,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -24294,6 +24333,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -24483,6 +24523,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -24894,6 +24935,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -25219,6 +25261,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -25404,6 +25447,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -25780,6 +25824,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -26667,6 +26712,7 @@ targets:
   - gtest
   - upb_textformat_lib
   - z
+  - absl/algorithm:container
   - absl/base:no_destructor
   - absl/container:btree
   - absl/container:flat_hash_map
@@ -26919,6 +26965,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -27158,6 +27205,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -27336,6 +27384,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -28054,6 +28103,7 @@ targets:
   - gtest
   - upb_textformat_lib
   - z
+  - absl/algorithm:container
   - absl/base:no_destructor
   - absl/container:btree
   - absl/container:flat_hash_map
@@ -28273,6 +28323,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
@@ -28614,6 +28665,7 @@ targets:
   deps:
   - gtest
   - upb_textformat_lib
+  - absl/algorithm:container
   - absl/container:btree
   - absl/container:flat_hash_map
   - absl/container:inlined_vector
